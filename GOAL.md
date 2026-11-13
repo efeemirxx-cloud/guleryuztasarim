@@ -14,7 +14,7 @@ tasarlamak. Broşürler Canva'da yapılacak, tek tek bitirilecek.
 | 4 | Diş Beyazlatma (Bleaching) | Gece mavisi `#16307A` | Buz mavisi `#9FDDFF` | `#EAF6FF` |
 | 5 | Dolgu ve Kanal Tedavileri | Zümrüt `#11785A` | Nane `#7FE0B8` | `#E6F8F0` |
 | 6 | Protez Yaklaşımları | Petrol `#0D5E6E` | Altın sarısı `#F5B83D` | `#E6F4F6` |
-| 7 | Çocuk Diş Hekimliği | Güneş sarısı `#FFC83A` (koyu metinli) | Lacivert `#1F2A5C` + şeker pembe `#FF6F91` | `#FFF6DB` |
+| 7 | Çocuk Diş Hekimliği | Güneş sarısı `#FFC83A` (lacivert `#1F2A5C` metin) | Mor `#7B2CBF` | Beyaz `#FFFFFF` |
 
 Kapsam dışı: Genel Tanıtım (bitti), İmplant (bitti), Genel Tanıtım El Broşürü (şimdilik yok).
 Renkler öneridir; Canva marka kitiyle karşılaştırılıp kullanıcı onayıyla kesinleşir.
@@ -24,7 +24,7 @@ Renkler öneridir; Canva marka kitiyle karşılaştırılıp kullanıcı onayıy
   1. **Kapak:** iki satırlı büyük başlık (üst satır beyaz, alt satır vurgu rengi) + parıltı
      işareti; tedaviye özel düz (flat) illüstrasyon; altta dalga; sol altta
      "Scan for English version" QR kartı; sağ altta "Detaylı bilgi için sayfayı çevirin" + ok.
-  2. **"… Nedir?":** kısa giriş paragrafı + 3 madde, zikzak zaman çizelgesi
+  2. **"… Nedir?":** kısa giriş paragrafı + 4 madde, zikzak zaman çizelgesi
      (lila/açık ton daire, kesik çizgi bağlantı, uç noktaları).
   3. **"Süreç Nasıl İşler?":** 4 adım zikzak + altta bilgi kutusu
      (ör. "Bilmeniz Gerekenler" / "Randevu Öncesi") — tanıtımdaki "İlk Ziyaretinizde" kutusu gibi.
@@ -67,3 +67,18 @@ Renkler öneridir; Canva marka kitiyle karşılaştırılıp kullanıcı onayıy
 3. Önizlemeyi kullanıcıya göster, kalite kontrol listesini raporla.
 4. **Kullanıcı onayı olmadan kaydetme (commit) yok.** Onaydan sonra kaydet ve PDF dışa aktar.
 5. Bir broşür bitmeden diğerine geçme. Sıra: tablodaki sıra (1 → 7).
+
+## Durum (tamamlandı)
+| # | Broşür | Canva tasarımı | PDF |
+|---|--------|----------------|-----|
+| 1 | Dijital Diş Hekimliği | `DAHawR-Pbng` | `pdf/1-dijital-dis-hekimligi.pdf` |
+| 2 | Estetik Diş Hekimliği | `DAHawcqvz9w` | `pdf/2-estetik-dis-hekimligi.pdf` |
+| 3 | Gülüş Tasarımı | `DAHawaZ5-08` | `pdf/3-gulus-tasarimi.pdf` |
+| 4 | Diş Beyazlatma | `DAHawab7IBU` | `pdf/4-dis-beyazlatma.pdf` |
+| 5 | Dolgu ve Kanal Tedavileri | `DAHawf74V_4` | `pdf/5-dolgu-ve-kanal.pdf` |
+| 6 | Protez Yaklaşımları | `DAHawoaQINE` | `pdf/6-protez.pdf` |
+| 7 | Çocuk Diş Hekimliği | `DAHawhfpC-s` | `pdf/7-cocuk-dis-hekimligi.pdf` |
+
+Önizleme: `pdf/onizleme-1-4.png`, `pdf/onizleme-5-7.png`.
+Kalan elle iş: kapaktaki "Scan for English version" QR kutusu yer tutucudur — İngilizce sürüm hazır olunca gerçek QR kod eklenmeli.
+Orijinal Genel Tanıtım ve İmplant tasarımlarına dokunulmadı; tüm çalışmalar kopyalar üzerinde yapıldı.
