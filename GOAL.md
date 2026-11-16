@@ -68,7 +68,7 @@ Renkler öneridir; Canva marka kitiyle karşılaştırılıp kullanıcı onayıy
 4. **Kullanıcı onayı olmadan kaydetme (commit) yok.** Onaydan sonra kaydet ve PDF dışa aktar.
 5. Bir broşür bitmeden diğerine geçme. Sıra: tablodaki sıra (1 → 7).
 
-## Durum (tamamlandı)
+## Durum (v2 — revize tamamlandı)
 | # | Broşür | Canva tasarımı | PDF |
 |---|--------|----------------|-----|
 | 1 | Dijital Diş Hekimliği | `DAHawR-Pbng` | `pdf/1-dijital-dis-hekimligi.pdf` |
@@ -76,9 +76,45 @@ Renkler öneridir; Canva marka kitiyle karşılaştırılıp kullanıcı onayıy
 | 3 | Gülüş Tasarımı | `DAHawaZ5-08` | `pdf/3-gulus-tasarimi.pdf` |
 | 4 | Diş Beyazlatma | `DAHawab7IBU` | `pdf/4-dis-beyazlatma.pdf` |
 | 5 | Dolgu ve Kanal Tedavileri | `DAHawf74V_4` | `pdf/5-dolgu-ve-kanal.pdf` |
-| 6 | Protez Yaklaşımları | `DAHawoaQINE` | `pdf/6-protez.pdf` |
+| 6 | Diş Protezleri | `DAHawoaQINE` | `pdf/6-protez.pdf` |
 | 7 | Çocuk Diş Hekimliği | `DAHawhfpC-s` | `pdf/7-cocuk-dis-hekimligi.pdf` |
+| 8 | İmplant Tedavisi (yeni aile sürümü) | `DAHbB-_kTso` | `pdf/8-implant-tedavisi.pdf` |
 
-Önizleme: `pdf/onizleme-1-4.png`, `pdf/onizleme-5-7.png`.
-Kalan elle iş: kapaktaki "Scan for English version" QR kutusu yer tutucudur — İngilizce sürüm hazır olunca gerçek QR kod eklenmeli.
-Orijinal Genel Tanıtım ve İmplant tasarımlarına dokunulmadı; tüm çalışmalar kopyalar üzerinde yapıldı.
+Önizleme: `pdf/onizleme-1-4.png`, `pdf/onizleme-5-8.png`.
+
+### v2 renk mantığı (A → B → A)
+Kapak ve arka sayfa = **A**. Kapaktaki ana dalga ve "Detaylı bilgi için sayfayı çevirin" alanı = **B**,
+yani okuyucuyu bekleyen iç sayfa (2–3) rengi. Dalganın arkasındaki koyu şerit = B'nin koyu tonu.
+
+| Broşür | A (kapak/arka) | B (iç sayfalar) | İç sayfa metni |
+|---|---|---|---|
+| Dijital | `#6C4DFF` | `#1A1446` | beyaz |
+| Estetik | `#E0528C` | `#6E1E4E` | beyaz |
+| Gülüş | `#D63A2B` | `#F07A1F` | koyu `#3D0C04` (kontrast) |
+| Beyazlatma | `#1FA2E6` | `#12307A` | beyaz |
+| Dolgu | `#16A57A` | `#0B5442` | beyaz |
+| Protez | `#0E9FB3` | `#0B3A4C` | beyaz |
+| Çocuk | `#FFC21A` | `#7B2CBF` | beyaz |
+| İmplant | `#139EF2` | `#3AA935` | koyu `#0A1F40` (kontrast) |
+
+Kural: iç sayfa zemini parlaksa (beyaz metin kontrastı < 4.5:1) gövde metni koyu mürekkebe döner.
+
+### v2 değişiklikleri
+- Kapaklarda düz ikon yerine Canva AI ile üretilmiş 3D görseller (Gülüş ve Estetik görselleri bağımsız inceleme sonrası yenilendi).
+- "İlk Ziyaretinizde" kutusu → her broşüre özel **"Bilmeniz Gerekenler"** (3 kolon).
+- Madde metinleri eşit uzunluğa getirildi (s.2 ≈ 3 satır, s.3 ≈ 2–3 satır, kutu ≈ 3–4 satır).
+- İmplant: eski tasarımdaki "Doğal ve Kalıcı Çözüm" ve "2–3 ay" süre vaadi kaldırıldı; "titanyum vidalarla" yerine "yapay diş kökleriyle".
+- Çocuk: "ortama alışacağı" (sonuç vaadi) → "ortamı tanıyabileceği".
+- Parıltı (sparkle) işaretleri kesim çizgisinden ≥ 4 mm içeri alındı; adres satırı kalınlaştırıldı.
+
+### Bağımsız inceleme (ayrı ajan, soğuk okuma)
+Renk akışı 8/8 doğru, mevzuat açısından yasaklı ifade yok. Bulunan sorunlar (kenara yakın parıltılar,
+Beyazlatma kutu taşması, Gülüş/İmplant kontrastı, küçük/kesik kapak görselleri, başlık ve dalga tutarsızlıkları,
+metin dengesi) düzeltildi.
+
+### Kalan elle iş
+- Kapaktaki "Scan for English version" QR kutusu yer tutucudur — İngilizce sürüm hazır olunca gerçek QR eklenmeli.
+- Canva API ile dışa aktarımda **taşma payı (bleed) yok**. Matbaaya göndermeden önce Canva'da
+  Dosya → "Baskı taşma payını göster" açılıp PDF Baskı olarak "Kesim işaretleri ve taşma payı" ile indirilmeli.
+- Çocuk s.3 ikonları dolgulu/renkli illüstrasyon (diğerleri çizgisel) — çocuk broşürü için bilinçli bırakıldı.
+- Orijinal Genel Tanıtım ve İmplant tasarımlarına dokunulmadı; tüm çalışmalar kopyalar üzerinde yapıldı.
