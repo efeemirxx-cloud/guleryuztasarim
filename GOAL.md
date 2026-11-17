@@ -149,6 +149,13 @@ metin dengesi) düzeltildi.
 - Kapaklardaki küçük "güleryüz" yazı logosu 8 broşürden kaldırıldı; başlık, ışıltı ve ana görsel yukarı kaydırıldı (arka sayfadaki büyük logo korunuyor).
 - Kapaklara :) gülüş sembolü denendi; kullanıcı isteğiyle tamamen kaldırıldı — hiçbir kapakta yok.
 - İç sayfalar (2–3) ve arka sayfa vurguları bir ton açıldı, beyaz metinler korundu:
-  Dijital #2F247E · Estetik #8E2765 · Gülüş #2C3F6B (yalnız iç) · Beyazlatma #1941A6 · Dolgu #0F6F57 · Protez #105570 · Çocuk #8B38D1 · İmplant #268338
+  Dijital #2F247E · Estetik #8E2765 · Gülüş (v5'te yeniden boyandı, aşağıya bakın) · Beyazlatma #1941A6 · Dolgu #0F6F57 · Protez #105570 · Çocuk #8B38D1 · İmplant #268338
 - Kontroller: 8/8 giriş 3 satır, gövde metinleri 4 satır; ikonlar ≤0,7 px merkezde; yasaklı ifade taraması temiz.
 - Orijinal "klasik stil" (DAHZE5GcxPc) ve orijinal İMPLANT (DAHZ7YmD9_k) değiştirilmedi.
+
+## v5 — Gülüş Tasarımı renk değişikliği
+- Kullanıcı: "lacivert-altın uymamış, daha açık tonlar". Gülüş baştan açık mercan paletine alındı (ilk brifteki Mercan + Şeftali yönü):
+  kapak/arka sayfa `#EE5D50` · iç sayfalar `#C94539` · koyu dalga `#8E2E25` · vurgu (başlık 2. satır, çizgiler, yol noktaları) şeftali `#FFD27A`
+  · ikon daireleri / kutular krem `#FFF1E3` · koyu metin (QR, İlk Ziyaretinizde, Bize Ulaşın) `#8A2E22`. Beyaz metinler korundu.
+- İkonlar mercan-şeftali setine (`MAHawSOGGbA`) döndü; kapak görselindeki altın halka Canva AI ile açık şeftali-inci halkaya çevrildi (`MAHbJOPW1AA`).
+- Kontrol: giriş 3 / maddeler 4 satır; ikonlar ≤0,4 px merkezde; yasaklı ifade yok.
