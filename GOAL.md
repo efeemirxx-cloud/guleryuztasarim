@@ -81,6 +81,19 @@ Renkler öneridir; Canva marka kitiyle karşılaştırılıp kullanıcı onayıy
 - İmplant: orijinal İMPLANT tasarımı (3 madde, kutu yok) **değiştirilmedi**; tamamlanmış aile sürümü `DAHbB-_kTso`
   (4 madde, 4 adım, İlk Ziyaretinizde kutusu, arka sayfa).
 
+### v3 bağımsız inceleme sonrası
+- Gülüş iç sayfaları hardal yerine **lacivert `#1D2A47`**, altın `#D4A23C` vurgu, beyaz metin (kontrast + kurumsal görünüm).
+- İmplant iç sayfaları **koyu yeşil `#1F6B2E`**, açık yeşil `#8EDB7E` vurgu, beyaz metin; kapak/arka dalga ve ikon daireleri aynı yeşil
+  (Beyazlatma'dan ayrışıyor). "İmplant Yerleştirme" metni: "…sonrasında dikkat edilecekler anlatılır."
+- Dolgu kapak görseli yeniden üretildi: kesitli azı dişi, nane yeşili kanal dolgusu ve yüzey dolgusu (halka yok, Estetik ile karışmaz).
+  s.2 başlığı "TEDAVİLERİ NEDİR?" (kapakla uyumlu); kalabalık parıltı kaldırıldı; kapak parıltısı başlıktan ayrıldı.
+- Son doğrulama (PDF'ten): 8/8 broşürde giriş 3 satır, 8 madde 4 satır; 8/8 "İlk Ziyaretinizde" kutusu; ikon sapması ≤ 0,7 px;
+  yasaklı ifade taraması temiz (tek eşleşme "kalıcı dişler" = daimi diş, vaat değil).
+
+### Bilinçli bırakılanlar / elle yapılacaklar
+- Kapak logosundaki küçük alt yazı (AĞIZ ve DİŞ SAĞLIĞI POLİKLİNİĞİ) baskıda çok küçük kalabilir; logo kapakta 172 px genişlikte.
+- Protez kapağındaki köprü görseli diğerlerine göre daha sade/küçük.
+
 ## Durum (v2)
 | # | Broşür | Canva tasarımı | PDF |
 |---|--------|----------------|-----|
