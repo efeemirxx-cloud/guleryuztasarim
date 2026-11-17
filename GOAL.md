@@ -68,7 +68,20 @@ Renkler öneridir; Canva marka kitiyle karşılaştırılıp kullanıcı onayıy
 4. **Kullanıcı onayı olmadan kaydetme (commit) yok.** Onaydan sonra kaydet ve PDF dışa aktar.
 5. Bir broşür bitmeden diğerine geçme. Sıra: tablodaki sıra (1 → 7).
 
-## Durum (v2 — revize tamamlandı)
+## Durum (v3 — son revizyon)
+### v3 değişiklikleri
+- Tüm kapak başlıkları **beyaz**; kapakların sol üstüne Güleryüz logosu eklendi (arka sayfada zaten var).
+- Estetik ve Dolgu ve Kanal kapak görselleri Canva AI ile yeniden üretildi (klasik stil 3D halka dili).
+- s.3 alt kutusu tekrar **"İlk Ziyaretinizde"** (Sizi dinliyoruz / Değerlendiriyoruz / Birlikte planlıyoruz) — klasik stil ile birebir metin.
+- Metin eşitleme: giriş 3 satır, s.2 ve s.3'teki 8 madde metninin hepsi **4 satır** (8/8 broşürde PDF'ten doğrulandı).
+- Gülüş paleti kurumsal **lacivert `#1D2A47` + altın `#B8862B`**; yeni kapak görseli ve lacivert/altın ikon seti.
+- Çocuk paleti turuncu `#E8701A` + mor `#7B2CBF` (beyaz kapak başlığı okunur olsun diye).
+- İkonlar dairelerinde ortalandı: 8 broşürde tüm ikonlar ölçümle ≤ 0,7 px sapma.
+- Kapak parıltı işaretleri başlıktan uzaklaştırıldı (Dijital dahil).
+- İmplant: orijinal İMPLANT tasarımı (3 madde, kutu yok) **değiştirilmedi**; tamamlanmış aile sürümü `DAHbB-_kTso`
+  (4 madde, 4 adım, İlk Ziyaretinizde kutusu, arka sayfa).
+
+## Durum (v2)
 | # | Broşür | Canva tasarımı | PDF |
 |---|--------|----------------|-----|
 | 1 | Dijital Diş Hekimliği | `DAHawR-Pbng` | `pdf/1-dijital-dis-hekimligi.pdf` |
