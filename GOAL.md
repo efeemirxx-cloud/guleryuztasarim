@@ -144,3 +144,11 @@ metin dengesi) düzeltildi.
   Dosya → "Baskı taşma payını göster" açılıp PDF Baskı olarak "Kesim işaretleri ve taşma payı" ile indirilmeli.
 - Çocuk s.3 ikonları dolgulu/renkli illüstrasyon (diğerleri çizgisel) — çocuk broşürü için bilinçli bırakıldı.
 - Orijinal Genel Tanıtım ve İmplant tasarımlarına dokunulmadı; tüm çalışmalar kopyalar üzerinde yapıldı.
+
+## v4 — son kullanıcı geri bildirimi (teslim öncesi)
+- Kapaklardaki küçük "güleryüz" yazı logosu 8 broşürden kaldırıldı; başlık, ışıltı ve ana görsel yukarı kaydırıldı (arka sayfadaki büyük logo korunuyor).
+- Kapaklara :) gülüş sembolü denendi; kullanıcı isteğiyle tamamen kaldırıldı — hiçbir kapakta yok.
+- İç sayfalar (2–3) ve arka sayfa vurguları bir ton açıldı, beyaz metinler korundu:
+  Dijital #2F247E · Estetik #8E2765 · Gülüş #2C3F6B (yalnız iç) · Beyazlatma #1941A6 · Dolgu #0F6F57 · Protez #105570 · Çocuk #8B38D1 · İmplant #268338
+- Kontroller: 8/8 giriş 3 satır, gövde metinleri 4 satır; ikonlar ≤0,7 px merkezde; yasaklı ifade taraması temiz.
+- Orijinal "klasik stil" (DAHZE5GcxPc) ve orijinal İMPLANT (DAHZ7YmD9_k) değiştirilmedi.
